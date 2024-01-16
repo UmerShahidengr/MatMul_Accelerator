@@ -1,1 +1,1 @@
-# CNN_Accelerator
+# MatMul_Accelerator
