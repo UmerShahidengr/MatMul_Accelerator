@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../rtl/Common/Config.sv" \
+"../../../../../rtl/Datapath/accumulator.sv" \
+"../../../../../rtl/Datapath/acum_buffer.sv" \
+"../../../../../rtl/Utilities/buffer.sv" \
+"../../../../../rtl/Controller/controller.sv" \
+"../../../../../rtl/Datapath/datapath.sv" \
+"../../../../../rtl/Datapath/input_buffer.sv" \
+"../../../../../rtl/Datapath/instr_dec.sv" \
+"../../../../../rtl/Datapath/mac.sv" \
+"../../../../../rtl/Datapath/systolic.sv" \
+"../../../../../rtl/Datapath/weight_buffer.sv" \
+"../../../../../rtl/top.sv" \
+"../../../../../rtl/Common/Interfaces.sv" \
+"../../../../../Testbench/tb_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

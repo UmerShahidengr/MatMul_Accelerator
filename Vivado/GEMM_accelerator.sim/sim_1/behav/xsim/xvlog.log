@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Common/Config.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Datapath/accumulator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Datapath/acum_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module acum_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Utilities/buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Controller/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Datapath/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Datapath/input_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Datapath/instr_dec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_dec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Datapath/mac.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Datapath/systolic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module systolic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Datapath/weight_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/rtl/Common/Interfaces.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/FYP/GEMM_accelerator/Testbench/tb_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+WARNING: [VRFC 10-3590] non void function 'generate_activations' is called without empty parenthesis [D:/Study/FYP/GEMM_accelerator/Testbench/tb_top.sv:46]
+WARNING: [VRFC 10-3590] non void function 'generate_weights' is called without empty parenthesis [D:/Study/FYP/GEMM_accelerator/Testbench/tb_top.sv:47]
