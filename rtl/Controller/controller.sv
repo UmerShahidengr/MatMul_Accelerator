@@ -1,6 +1,7 @@
 //`include "w_controller.sv"
 //`include "if_controller.sv"
 //`include "instr_dec.sv"
+//`include "Config.sv"
 import Config::*;
 module controller (
     input clk,
